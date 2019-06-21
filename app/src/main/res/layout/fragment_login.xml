@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#BBC767"
+    tools:context="Fragment.LoginFragment">
+
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="119dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo" />
+
+    <!-- Email Label -->
+
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:drawableLeft="@drawable/username"
+        android:hint="@string/username"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="185dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/password" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:background="#bbcc"/>
+
+    <TextView
+        android:id="@+id/link_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"
+        android:background="#ffff"
+        android:gravity="center"
+        android:text="No account yet? Swipe Right to Register"
+        android:textSize="16dip" />
+
+
+</>
